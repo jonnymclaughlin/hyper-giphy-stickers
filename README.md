@@ -12,5 +12,6 @@ The current list of commands:
 * start
 * deploy
 * publish
+* BONUS!!! When it's 4:20, you get a special treat...
 
 ![""](https://media.giphy.com/media/12bSyZ2lLVvZ4s/giphy.gif)
