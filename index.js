@@ -3,7 +3,7 @@ const getSticker = require('./stickers.js').getSticker;
 const getConfetti = require('./stickers.js').getConfetti;
 const getHigh = require('./stickers.js').getHigh;
 
-const SPEED = 12;
+const SPEED = 10;
 
 exports.decorateTerm = (Term, { React, notify }) => {
     return class extends React.Component {
