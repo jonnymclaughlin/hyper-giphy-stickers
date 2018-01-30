@@ -5,7 +5,7 @@
         "hyper",
         "hyperterm"
     ],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Hyper terminal plugin which shows GIPHY stickers for cool commands",
     "main": "index.js",
     "author": "jonnymclaughlin",
