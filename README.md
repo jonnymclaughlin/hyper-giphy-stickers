@@ -7,8 +7,8 @@ This plugin will make stickers dance around your terminal when typing certain co
 The current list of commands:
 
 * giphy
-* git pull
-* git push
+* pull
+* push
 * start
 * deploy
 * publish
