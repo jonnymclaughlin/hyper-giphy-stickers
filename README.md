@@ -9,8 +9,8 @@ The current list of commands:
 * giphy
 * git pull
 * git push
+* start
 * deploy
 * publish
-* BONUS!!! It will also check if it's 4:20 as you type and give you a special treat
 
 ![""](https://media.giphy.com/media/12bSyZ2lLVvZ4s/giphy.gif)

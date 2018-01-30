@@ -2,18 +2,12 @@ const getRandom = function(array) {
     return array[Math.floor(Math.random() * array.length)];
 };
 
-exports.commands = ['giphy', 'git pull', 'git push', 'deploy', 'publish'];
+exports.commands = ['giphy', 'git pull', 'git push', 'deploy', 'publish', 'start'];
 
 exports.getConfetti = function() {
-    return getRandom(['https://media.giphy.com/media/120ErahsQyf1q8/giphy.gif']);
-};
-
-exports.getHigh = function() {
     return getRandom([
-        { url: 'https://media.giphy.com/media/3oKIPmkf1MZhNX54w8/200.gif', direction: 'left' },
-        { url: 'https://media.giphy.com/media/J74dsRDRjjKRW/200.gif' },
-        { url: 'https://media.giphy.com/media/NxpMNq17Y2Khq/200.gif' },
-        { url: 'https://media.giphy.com/media/MH4gH8DX5fBG8/200.gif' }
+        'https://media.giphy.com/media/120ErahsQyf1q8/giphy.gif',
+        'https://media.giphy.com/media/NxpMNq17Y2Khq/giphy.gif'
     ]);
 };
 
@@ -40,6 +34,11 @@ exports.getSticker = function(keyword) {
                 { url: 'https://media.giphy.com/media/SFMZhvWsuUMj6/200.gif' },
                 { url: 'https://media.giphy.com/media/l378jTR4iHXQ0dPZm/200.gif' },
                 { url: 'https://media.giphy.com/media/tXMlGu8p96FFK/200.gif' }
+            ]);
+        case 'start':
+            return getRandom([
+                { url: 'https://media.giphy.com/media/3o6fJ3xFENBRxVFvUc/200.gif' },
+                { url: 'https://media.giphy.com/media/3ohs4AyHI0vBxFnIIM/200.gif' }
             ]);
         case 'deploy':
         case 'publish':
