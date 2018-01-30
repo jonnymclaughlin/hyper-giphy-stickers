@@ -6,5 +6,8 @@
     "main": "index.js",
     "author": "jonnymclaughlin",
     "license": "ISC",
-    "repository": "jonnymclaughlin/hyper-giphy-stickers"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jonnymclaughlin/hyper-giphy-stickers.git"
+    }
 }
