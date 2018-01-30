@@ -1,7 +1,11 @@
 {
     "name": "hyper-giphy-stickers",
-    "keywords": ["hyper.app", "hyper", "hyperterm"],
-    "version": "1.0.0",
+    "keywords": [
+        "hyper.app",
+        "hyper",
+        "hyperterm"
+    ],
+    "version": "1.0.1",
     "description": "Hyper terminal plugin which shows GIPHY stickers for cool commands",
     "main": "index.js",
     "author": "jonnymclaughlin",
