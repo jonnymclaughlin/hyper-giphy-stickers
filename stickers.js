@@ -2,7 +2,7 @@ const getRandom = function(array) {
     return array[Math.floor(Math.random() * array.length)];
 };
 
-exports.commands = ['giphy', 'git pull', 'git push', 'deploy'];
+exports.commands = ['giphy', 'git pull', 'git push', 'deploy', 'publish'];
 
 exports.getConfetti = function() {
     return getRandom(['https://media.giphy.com/media/120ErahsQyf1q8/giphy.gif']);
@@ -42,6 +42,7 @@ exports.getSticker = function(keyword) {
                 { url: 'https://media.giphy.com/media/tXMlGu8p96FFK/200.gif' }
             ]);
         case 'deploy':
+        case 'publish':
             return getRandom([
                 { url: 'https://media.giphy.com/media/7Y8Mzy3rRUTC0/200.gif' },
                 { url: 'https://media.giphy.com/media/ETqFDJY9LfMuA/200.gif' },

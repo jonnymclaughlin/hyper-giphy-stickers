@@ -4,6 +4,7 @@ const getConfetti = require('./stickers.js').getConfetti;
 const getHigh = require('./stickers.js').getHigh;
 
 const SPEED = 10;
+const CELEBRATION = ['deploy', 'publish'];
 
 exports.decorateTerm = (Term, { React, notify }) => {
     return class extends React.Component {
@@ -26,7 +27,7 @@ exports.decorateTerm = (Term, { React, notify }) => {
             }
 
             if (keyword) {
-                this.addSticker(getSticker(keyword), keyword === 'deploy');
+                this.addSticker(getSticker(keyword), CELEBRATION.indexOf(keyword) > -1);
             }
 
             this.queuedKeywords = [];
