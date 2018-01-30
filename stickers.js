@@ -11,6 +11,14 @@ exports.getConfetti = function() {
     ]);
 };
 
+exports.getHigh = function() {
+    return getRandom([
+        { url: 'https://media.giphy.com/media/3oKIPmkf1MZhNX54w8/200.gif', direction: 'left' },
+        { url: 'https://media.giphy.com/media/J74dsRDRjjKRW/200.gif' },
+        { url: 'https://media.giphy.com/media/MH4gH8DX5fBG8/200.gif' }
+    ]);
+};
+
 exports.getSticker = function(keyword) {
     switch (keyword) {
         case 'giphy':

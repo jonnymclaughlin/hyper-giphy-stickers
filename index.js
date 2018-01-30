@@ -1,6 +1,7 @@
 const commands = require('./stickers.js').commands;
 const getSticker = require('./stickers.js').getSticker;
 const getConfetti = require('./stickers.js').getConfetti;
+const getHigh = require('./stickers.js').getHigh;
 
 const SPEED = 10;
 const CELEBRATION = ['deploy', 'publish'];
@@ -78,7 +79,12 @@ exports.decorateTerm = (Term, { React, notify }) => {
             term.document_.addEventListener('keyup', this.onKeyDown, false);
         }
         _onKeyDown({ key, which }) {
-            if (which === 13) {
+            const now = new Date();
+            const is420 = now.getHours() === 12 && now.getMinutes() === 31;
+
+            if (is420) {
+                this.addSticker(getHigh());
+            } else if (which === 13) {
                 this.checkForKeywords();
             } else {
                 this.queuedKeywords.push(key);
