@@ -10,6 +10,7 @@ The current list of commands:
 * git pull
 * git push
 * deploy
+* publish
 * BONUS!!! It will also check if it's 4:20 as you type and give you a special treat
 
 ![""](https://media.giphy.com/media/12bSyZ2lLVvZ4s/giphy.gif)
