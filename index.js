@@ -80,7 +80,7 @@ exports.decorateTerm = (Term, { React, notify }) => {
         }
         _onKeyDown({ key, which }) {
             const now = new Date();
-            const is420 = now.getHours() === 12 && now.getMinutes() === 31;
+            const is420 = now.getHours() === 16 && now.getMinutes() === 20;
 
             if (is420) {
                 this.addSticker(getHigh());
