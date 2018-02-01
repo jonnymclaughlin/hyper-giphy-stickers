@@ -6,7 +6,6 @@ This plugin will make stickers dance around your terminal when typing certain co
 
 The current list of commands:
 
-* giphy
 * pull
 * push
 * start
